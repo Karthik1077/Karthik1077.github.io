@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Karthik Vatte — IT Support & Software Portfolio</title>
+<meta name="description" content="Portfolio of Karthik Vatte: B.Tech CSE graduate building full-stack projects and targeting IT support / associate engineer roles." />
+<style>
+:root{
+  --bg:#fbf8f2; --panel:#fff; --line:#e4dcc8; --ink:#1f2a24; --muted:#6b6455;
+  --navy:#16232c; --gold:#b8863b;
+  --font:"Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,sans-serif;
+}
+@media(prefers-color-scheme:dark){:root{--bg:#12100b;--panel:#1c1912;--line:#372f21;--ink:#efe9da;--muted:#b2a890;--navy:#efe9da}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.6}
+a{color:var(--gold)}
+.wrap{max-width:860px;margin:0 auto;padding:0 1.25rem}
+nav{border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:5}
+nav .wrap{display:flex;gap:1.2rem;padding:0.8rem 1.25rem;flex-wrap:wrap;align-items:center}
+nav strong{margin-right:auto;color:var(--navy)}
+nav a{text-decoration:none;color:var(--muted);font-size:0.9rem}
+nav a:hover{color:var(--gold)}
+header{padding:4rem 0 3rem}
+header h1{font-size:2.5rem;margin:0 0 0.4rem;color:var(--navy);line-height:1.15}
+header .role{font-size:1.15rem;color:var(--gold);font-weight:600;margin:0 0 1rem}
+header p{max-width:60ch;color:var(--muted);margin:0 0 1.5rem}
+.btns{display:flex;gap:0.7rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:0.6rem 1.2rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:0.92rem;border:1px solid var(--line);color:var(--ink)}
+.btn.primary{background:var(--gold);border-color:var(--gold);color:#fff}
+section{padding:2.2rem 0;border-top:1px solid var(--line)}
+h2{font-size:1.4rem;margin:0 0 1.2rem;color:var(--navy)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:1.4rem;margin-bottom:1.2rem}
+.card h3{margin:0 0 0.3rem;font-size:1.2rem;color:var(--navy)}
+.tags{display:flex;flex-wrap:wrap;gap:0.4rem;margin:0.6rem 0 0.9rem}
+.tag{font-size:0.76rem;padding:0.15rem 0.6rem;border-radius:999px;background:var(--line);color:var(--ink)}
+.card ul{margin:0 0 1rem;padding-left:1.2rem;color:var(--muted)}
+.card li{margin-bottom:0.3rem}
+.shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0.9rem;margin-bottom:1rem}
+.shots figure{margin:0}
+.shots img{width:100%;display:block;border-radius:8px;border:1px solid var(--line)}
+.shots figcaption{font-size:0.8rem;color:var(--muted);margin-top:0.35rem;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+.grid .card{margin:0}
+.grid h3{font-size:1rem}
+.grid p{margin:0;color:var(--muted);font-size:0.92rem}
+footer{padding:2rem 0 3rem;border-top:1px solid var(--line);color:var(--muted);font-size:0.9rem}
+@media(max-width:560px){header h1{font-size:1.9rem}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <strong>Karthik Vatte</strong>
+  <a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a>
+</div></nav>
+
+<main class="wrap">
+<header>
+  <h1>Karthik Vatte</h1>
+  <p class="role">IT Support &amp; Associate Engineer · B.Tech CSE · Hyderabad, India</p>
+  <p>Computer Science graduate with hands-on experience building full-stack applications. I enjoy working through a problem methodically, explaining it clearly to non-technical users, and picking up new tools quickly. Looking for an entry-level IT support or associate engineer role.</p>
+  <div class="btns">
+    <a class="btn primary" href="https://github.com/Karthik1077" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/vatte-karthik-94aa2a2a5" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="mailto:karthikvatte1@gmail.com">Email me</a>
+  </div>
+</header>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Split — Shared Expense Tracker</h3>
+    <div class="tags"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">PostgreSQL</span><span class="tag">JWT</span></div>
+    <div class="shots">
+      <figure><img src="https://raw.githubusercontent.com/Karthik1077/expense-splitter/main/screenshots/signup.png" alt="Sign up page" loading="lazy" /><figcaption>Sign up</figcaption></figure>
+      <figure><img src="https://raw.githubusercontent.com/Karthik1077/expense-splitter/main/screenshots/your-groups.png" alt="Your groups page" loading="lazy" /><figcaption>Your groups</figcaption></figure>
+      <figure><img src="https://raw.githubusercontent.com/Karthik1077/expense-splitter/main/screenshots/dashboard.png" alt="Dashboard" loading="lazy" /><figcaption>Dashboard</figcaption></figure>
+      <figure><img src="https://raw.githubusercontent.com/Karthik1077/expense-splitter/main/screenshots/group-page.png" alt="Group page" loading="lazy" /><figcaption>Group page</figcaption></figure>
+      <figure><img src="https://raw.githubusercontent.com/Karthik1077/expense-splitter/main/screenshots/add-expense-equal.png" alt="Add expense with equal split" loading="lazy" /><figcaption>Add expense (equal split)</figcaption></figure>
+      <figure><img src="https://raw.githubusercontent.com/Karthik1077/expense-splitter/main/screenshots/add-expense-custom.png" alt="Add expense with custom split" loading="lazy" /><figcaption>Add expense (custom split)</figcaption></figure>
+      <figure><img src="https://raw.githubusercontent.com/Karthik1077/expense-splitter/main/screenshots/balances.png" alt="Balances and settlements" loading="lazy" /><figcaption>Balances and settlements</figcaption></figure>
+    </div>
+    <ul>
+      <li>Groups with equal or custom expense splits, secure signup/login with hashed passwords and JWT.</li>
+      <li>Settlement algorithm that reduces a group's debts to the minimum number of payments.</li>
+      <li>Expense categories with a spending chart, mark-as-paid, and email invites for new members.</li>
+    </ul>
+    <a href="https://github.com/Karthik1077/expense-splitter" target="_blank" rel="noopener">View code on GitHub →</a>
+  </div>
+
+  <div class="card">
+    <h3>Desk — IT Ticket Tracker with SLA Timer</h3>
+    <div class="tags"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">PostgreSQL</span></div>
+    <ul>
+      <li>Helpdesk-style ticketing: priority, category, employee ID and location so an agent can find the reporter.</li>
+      <li>Automatic SLA deadlines by priority (Critical 1h, High 4h, Medium 24h, Low 72h) with on-track, at-risk and breached states.</li>
+      <li>Dashboard summary and email notifications when tickets are raised and resolved.</li>
+    </ul>
+    <a href="https://github.com/Karthik1077/ticket-tracker" target="_blank" rel="noopener">View code on GitHub →</a>
+  </div>
+
+  <div class="card">
+    <h3>Web Communities</h3>
+    <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">ReactJS</span><span class="tag">Java</span></div>
+    <ul>
+      <li>Community platform with profiles, interest-based communities, posts and discussions.</li>
+      <li>Search across communities, users and posts; commenting, personalized feed, content reporting and notifications.</li>
+      <li>Responsive layout for mobile and desktop.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card"><h3>Systems &amp; Networking</h3><p>Windows &amp; Linux fundamentals, basic Linux command line, TCP/IP, OSI model</p></div>
+    <div class="card"><h3>Languages</h3><p>Python, JavaScript, SQL, MySQL</p></div>
+    <div class="card"><h3>Web</h3><p>HTML, CSS, ReactJS, Node.js, Express, PostgreSQL</p></div>
+    <div class="card"><h3>Tools &amp; Soft Skills</h3><p>Microsoft Word, Excel, Outlook, PowerPoint · written and verbal communication, troubleshooting, customer service, teamwork</p></div>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education &amp; Certifications</h2>
+  <div class="card">
+    <h3>B.Tech, Computer Science Engineering</h3>
+    <p style="margin:0;color:var(--muted)">St. Peter's Engineering College · 2021 – 2025 · CGPA 8.00</p>
+  </div>
+  <div class="card">
+    <h3>Certifications</h3>
+    <ul style="margin:0">
+      <li>Cybersecurity — Coursera</li>
+      <li>Google Cloud Computing Fundamentals — Google</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p style="color:var(--muted)">Open to entry-level IT support and associate engineer roles. The best way to reach me is email.</p>
+  <div class="btns">
+    <a class="btn primary" href="mailto:karthikvatte1@gmail.com">karthikvatte1@gmail.com</a>
+    <a class="btn" href="https://www.linkedin.com/in/vatte-karthik-94aa2a2a5" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://github.com/Karthik1077" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">© Karthik Vatte</div></footer>
+</body>
+</html>
